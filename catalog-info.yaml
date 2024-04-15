@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: azure-test-repo1
+  name: azure-test-repo2
   annotations:
     github.com/project-slug: sandip444/ecommerce
 spec:
