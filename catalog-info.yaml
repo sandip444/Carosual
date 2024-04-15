@@ -7,6 +7,6 @@ metadata:
 spec:
   type: service
   lifecycle: production
-  owner: sandip1
+  owner: sandip2
   definition:
-    $json: './catalog.*'
+    $text: './catalog.json'
