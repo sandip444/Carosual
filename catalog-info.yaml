@@ -5,7 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: sandip444/ecommerce
 spec:
-  type: service
+  type: openapi
   lifecycle: production
   owner: sandip2
   definition:
