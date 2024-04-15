@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: azure-test-repo1
   annotations:
@@ -8,3 +8,5 @@ spec:
   type: service
   lifecycle: production
   owner: sandip1
+  definition:
+    $json: './package.json'
