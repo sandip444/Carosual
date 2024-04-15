@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: azure-test-repo
+  annotations:
+    github.com/project-slug: sandip444/ecommerce
+spec:
+  type: service
+  lifecycle: production
+  owner: sandip
