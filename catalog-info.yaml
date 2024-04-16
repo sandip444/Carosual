@@ -9,4 +9,4 @@ spec:
   lifecycle: production
   owner: sandip2
   definition:
-    $json: ./catalog.json
+    $json: './catalog.json'
