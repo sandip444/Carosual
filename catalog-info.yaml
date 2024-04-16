@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
   name: azure-test-repo2
   annotations:
@@ -8,4 +8,6 @@ spec:
   type: openapi
   lifecycle: production
   owner: sandip2
+  definition:
+    $text: 'catalog.json'
 
